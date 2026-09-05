@@ -163,7 +163,7 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
     // Only show on iOS
     if (!Platform.isIOS) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Story Weaver Premium')),
+        appBar: AppBar(title: const Text('Thriller Seeker')),
         body: const Center(
           child: Text('Subscriptions are only available on iOS'),
         ),
@@ -265,7 +265,7 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                       // Show monthly card only if not subscribed to any plan
                       if (!subscriptionService.isSubscribed) ...[
                         _SubscriptionOption(
-                          title: 'Story Weaver Plan - Monthly',
+                          title: 'Thriller Seeker Plan - Monthly',
                           price:
                               subscriptionService.monthlyProduct?.price ??
                               'Loading...',
@@ -288,7 +288,7 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                       // Show yearly card if not subscribed to yearly (but show if on monthly to allow upgrade)
                       if (!subscriptionService.isSubscribedToYearly) ...[
                         _SubscriptionOption(
-                          title: 'Story Weaver Plan - Yearly',
+                          title: 'Thriller Seeker Plan - Yearly',
                           price:
                               subscriptionService.yearlyProduct?.price ??
                               'Loading...',

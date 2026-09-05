@@ -10,7 +10,7 @@ plugins {
 }
 
 android {
-    namespace = "com.lunarae.mobile"
+    namespace = "com.lunarae.thriller"
     compileSdk = 36
     ndkVersion = "28.2.13676358"
 
@@ -24,7 +24,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.lunarae.mobile"
+        applicationId = "com.lunarae.thriller"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
         versionCode = flutter.versionCode

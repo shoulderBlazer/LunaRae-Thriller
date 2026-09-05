@@ -98,15 +98,15 @@ class _StoryGeneratorScreenState extends State<StoryGeneratorScreen> {
     if (!canGenerate) {
       if (!mounted) return;
 
-      // Check if user is a Story Weaver subscriber
+      // Check if user is a Thriller Seeker subscriber
       final isSubscribed = subscriptionService.isSubscribed;
 
       if (isSubscribed) {
-        // Show custom message for Story Weaver subscribers
+        // Show custom message for Thriller Seeker subscribers
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: const Text(
-              "Today's stories are all woven.\n\nYou've enjoyed all 5 stories for today. Your next stories will be ready after midnight.\n\nThank you for being a Story Weaver member.",
+              "Today's stories are all woven.\n\nYou've enjoyed all 5 stories for today. Your next stories will be ready after midnight.\n\nThank you for being a Thriller Seeker member.",
             ),
             backgroundColor: LunaTheme.primary(context),
             behavior: SnackBarBehavior.floating,
@@ -131,7 +131,7 @@ class _StoryGeneratorScreenState extends State<StoryGeneratorScreen> {
         final isAndroid = Theme.of(context).platform == TargetPlatform.android;
         final message = isAndroid
             ? "Today's stories are all woven.\n\nYou've enjoyed your 2 free stories for today. Your next stories will be ready after midnight."
-            : "Today's stories are all woven.\n\nYou've enjoyed your 2 free stories for today. Your next stories will be ready after midnight.\n\nUnlock up to 5 stories every day with Story Weaver.";
+            : "Today's stories are all woven.\n\nYou've enjoyed your 2 free stories for today. Your next stories will be ready after midnight.\n\nUnlock up to 5 stories every day with Thriller Seeker.";
 
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(

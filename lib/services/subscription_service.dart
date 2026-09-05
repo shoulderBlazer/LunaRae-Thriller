@@ -5,10 +5,10 @@ import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Product IDs for Story Weaver subscriptions
+/// Product IDs for Thriller Seeker subscriptions
 class SubscriptionProductIds {
-  static const String monthly = 'com.lunarae.mobile.storyweaver.monthly';
-  static const String yearly = 'com.lunarae.mobile.storyweaver.yearly';
+  static const String monthly = 'com.lunarae.thriller.thrillerseeker.monthly';
+  static const String yearly = 'com.lunarae.thriller.thrillerseeker.yearly';
 
   static const List<String> all = [monthly, yearly];
 }
@@ -86,7 +86,7 @@ class _StoreKitTransactionData {
   });
 }
 
-/// Service to handle Apple subscriptions for Story Weaver
+/// Service to handle Apple subscriptions for Thriller Seeker
 class SubscriptionService extends ChangeNotifier {
   static final SubscriptionService _instance = SubscriptionService._internal();
   factory SubscriptionService() => _instance;
@@ -130,12 +130,12 @@ class SubscriptionService extends ChangeNotifier {
     switch (currentTier) {
       case SubscriptionTier.storyWeaver:
         if (_currentSubscription?.productId == SubscriptionProductIds.monthly) {
-          return 'Story Weaver Monthly';
+          return 'Thriller Seeker Monthly';
         }
         if (_currentSubscription?.productId == SubscriptionProductIds.yearly) {
-          return 'Story Weaver Yearly';
+          return 'Thriller Seeker Yearly';
         }
-        return 'Story Weaver';
+        return 'Thriller Seeker';
 
       case SubscriptionTier.storyLibrary:
         return 'Story Library';

@@ -10,7 +10,7 @@
         tools:node="remove" />
     
     <application
-        android:label="LunaRae"
+        android:label="LunaRae: Thriller Stories"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,4 +1,4 @@
-package com.lunarae.mobile
+package com.lunarae.thriller
 
 import io.flutter.embedding.android.FlutterActivity
 
