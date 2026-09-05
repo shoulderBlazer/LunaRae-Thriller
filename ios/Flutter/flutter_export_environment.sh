@@ -1,0 +1,15 @@
+#!/bin/sh
+# This is a generated file; do not edit or check into version control.
+export "FLUTTER_ROOT=/Users/johnathanshoulder/development/flutter"
+export "FLUTTER_APPLICATION_PATH=/Users/johnathanshoulder/Desktop/LunaRae/LunaRae"
+export "FLUTTER_FRAMEWORK_SWIFT_PACKAGE_PATH=/Users/johnathanshoulder/Desktop/LunaRae/LunaRae/ios/Flutter/ephemeral/Packages/.packages/FlutterFramework"
+export "COCOAPODS_PARALLEL_CODE_SIGN=true"
+export "FLUTTER_TARGET=lib/main.dart"
+export "FLUTTER_BUILD_DIR=build"
+export "FLUTTER_BUILD_NAME=1.2.0"
+export "FLUTTER_BUILD_NUMBER=40"
+export "DART_DEFINES=T1BFTkFJX0FQSV9LRVk9c2stcHJvai1iT2doVGswT1Y1YXg2OTlFaVhQdk9CbnlmZWVmblhkaGV3VTJ0TmJSSzhNa3NIVHNJNlVVMFVTZHluOEdDUGMxM2FvRUxGdFo5Z1QzQmxia0ZKcnhRWWRoWEVWanNKamRrcDNUSmxTd1ZlNjBUOVNJSjVIN1RISFhQc24tOGtxSTdXQU9WeUE3cUFQbEFCNEgxcTBPNzJIMkU5NEE=,RkxVVFRFUl9WRVJTSU9OPTMuNDQuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049YzlhNmM0ODQyMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NzdlMmU5NDc3Mg==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMi4y"
+export "DART_OBFUSCATION=false"
+export "TRACK_WIDGET_CREATION=false"
+export "TREE_SHAKE_ICONS=true"
+export "PACKAGE_CONFIG=/Users/johnathanshoulder/Desktop/LunaRae/LunaRae/.dart_tool/package_config.json"
