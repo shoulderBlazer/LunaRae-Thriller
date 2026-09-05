@@ -5,13 +5,13 @@ class AdMobConfig {
   AdMobConfig._();
 
   // Production IDs
-  static const String _androidBannerScreen1 = 'ca-app-pub-5203847313376900/9777735905';
-  static const String _androidBannerScreen2 = 'ca-app-pub-5203847313376900/9937518005';
-  static const String _androidInterstitialAfterStory = 'ca-app-pub-5203847313376900/2843935547';
+  static const String _androidBannerScreen1 = 'ca-app-pub-5203847313376900/8614568710';
+  static const String _androidBannerScreen2 = 'ca-app-pub-5203847313376900/8614568710';
+  static const String _androidInterstitialAfterStory = 'ca-app-pub-5203847313376900/5964354648';
   
-  static const String _iosBannerScreen1 = 'ca-app-pub-5203847313376900/4034277024';
-  static const String _iosBannerScreen2 = 'ca-app-pub-5203847313376900/7904690535';
-  static const String _iosInterstitialAfterStory = 'ca-app-pub-5203847313376900/9590033641';
+  static const String _iosBannerScreen1 = 'ca-app-pub-5203847313376900/9356804746';
+  static const String _iosBannerScreen2 = 'ca-app-pub-5203847313376900/9356804746';
+  static const String _iosInterstitialAfterStory = 'ca-app-pub-5203847313376900/6235817388';
 
   // Test IDs
   static const String _testAndroidBanner = 'ca-app-pub-3940256099942544/6300978111';
