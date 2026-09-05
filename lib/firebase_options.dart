@@ -50,19 +50,18 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBvnUO0PVPJIKi_ht1SJl5Ea6Z9lPFjPRA',
-    appId: '1:861750506913:android:e3debbc26b7671527807e0',
-    messagingSenderId: '861750506913',
-    projectId: 'lunarae-b8b5e',
-    storageBucket: 'lunarae-b8b5e.firebasestorage.app',
+    apiKey: 'AIzaSyASk-jLoh3BOdjZWOVJy9IoKMXxJcJMeVI',
+    appId: '1:98760878642:android:2fea054ea3cd8114c62a2b',
+    messagingSenderId: '98760878642',
+    projectId: 'lunarae-11f81',
+    storageBucket: 'lunarae-11f81.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCzpr-uvykePRoGgDB09The0BjWMXk9Q50',
-    appId: '1:861750506913:ios:ceed3eec13fad1337807e0',
-    messagingSenderId: '861750506913',
-    projectId: 'lunarae-b8b5e',
-    storageBucket: 'lunarae-b8b5e.firebasestorage.app',
-    iosBundleId: 'com.lunarae.mobile',
+    apiKey: 'AIzaSyDytV4fOBUjxzvX09JKMiYGY6RxDH4AhDQ',
+    appId: '1:98760878642:ios:5b66dadd9ff7886bc62a2b',
+    messagingSenderId: '98760878642',
+    projectId: 'lunarae-11f81',
+    storageBucket: 'lunarae-11f81.firebasestorage.app',
+    iosBundleId: 'com.lunarae.thriller',
   );
 }

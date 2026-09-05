@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "861750506913",
-    "project_id": "lunarae-b8b5e",
-    "storage_bucket": "lunarae-b8b5e.firebasestorage.app"
+    "project_number": "98760878642",
+    "project_id": "lunarae-11f81",
+    "storage_bucket": "lunarae-11f81.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:861750506913:android:e3debbc26b7671527807e0",
+        "mobilesdk_app_id": "1:98760878642:android:8078f32ee995900ec62a2b",
         "android_client_info": {
-          "package_name": "com.lunarae.mobile"
+          "package_name": "com.example.lunarae"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBvnUO0PVPJIKi_ht1SJl5Ea6Z9lPFjPRA"
+          "current_key": "AIzaSyASk-jLoh3BOdjZWOVJy9IoKMXxJcJMeVI"
         }
       ],
       "services": {
@@ -26,15 +26,34 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:861750506913:android:e3debbc26b7671527807e0",
+        "mobilesdk_app_id": "1:98760878642:android:2fea054ea3cd8114c62a2b",
         "android_client_info": {
-          "package_name": "com.lunarae.mobile.debug"
+          "package_name": "com.lunarae.thriller"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBvnUO0PVPJIKi_ht1SJl5Ea6Z9lPFjPRA"
+          "current_key": "AIzaSyASk-jLoh3BOdjZWOVJy9IoKMXxJcJMeVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98760878642:android:87064b9e5335dd56c62a2b",
+        "android_client_info": {
+          "package_name": "com.lunarae.thriller.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASk-jLoh3BOdjZWOVJy9IoKMXxJcJMeVI"
         }
       ],
       "services": {
